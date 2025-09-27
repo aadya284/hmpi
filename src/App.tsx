@@ -24,7 +24,7 @@ import {
   Users
 } from 'lucide-react'
 import { Login } from './components/Login'
-import { Button } from './components/ui/button'
+
 
 type UserRole = 'policymaker' | 'scientist' | 'researcher'
 
@@ -111,7 +111,7 @@ export default function App() {
               <div className="flex items-center gap-2">
                 <Droplets className="h-8 w-8 text-blue-600" />
                 <div>
-                  <h1 className="text-xl font-bold">AquaGuard HMPI</h1>
+                  <h1 className="text-xl font-bold">Jal-Bhoomi</h1>
                   <p className="text-xs text-muted-foreground">Heavy Metal Pollution Index Monitoring System</p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function App() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-          <TabsList className="grid w-full grid-cols-6">
+          <TabsList className="flex w-full grid-cols-6">
             <TabsTrigger value="overview" className="flex items-center gap-2">
               <BarChart3 className="h-4 w-4" />
               Overview
@@ -327,7 +327,7 @@ export default function App() {
 
             <Card>
               <CardHeader>
-                <CardTitle>About AquaGuard HMPI System</CardTitle>
+                <CardTitle>About Jal-Bhoomi System</CardTitle>
                 <CardDescription>
                   Advanced groundwater heavy metal pollution monitoring and analysis platform
                 </CardDescription>
@@ -455,7 +455,7 @@ export default function App() {
             <div className="flex items-center gap-2">
               <Droplets className="h-5 w-5 text-blue-600" />
               <span className="text-sm text-muted-foreground">
-                AquaGuard HMPI © 2024 - Environmental Monitoring System
+                Jal-Bhoomi © 2025 - Environmental Monitoring System
               </span>
             </div>
             <div className="flex items-center gap-4 text-xs text-muted-foreground">
